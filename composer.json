@@ -13,13 +13,7 @@
             "email": "horny.andrej@dpb.sk"
         }
     ],
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/andrej-horny/pkg-utils.git"
-        }
-    ],    
+    "minimum-stability": "dev", 
     "require": {
         "laravel/framework": "^11.0 || ^12.0",
         "spatie/laravel-permission": "^6.3",
