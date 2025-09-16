@@ -1,0 +1,30 @@
+{
+    "name": "andrej-horny/pkg-finance",
+    "type": "package",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Dpb\\Packages\\Finance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrej",
+            "email": "horny.andrej@dpb.sk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^11.0 || ^12.0",
+        "spatie/laravel-permission": "^6.3",
+        "spatie/laravel-package-tools": "^1.92",
+        "andrej-horny/pkg-utils": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dpb\\Packages\\Finance\\Providers\\FinanceServiceProvider"
+            ]
+        }
+    }
+}
